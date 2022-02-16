@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galvan 360</title>
+    <style>
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(10, 10, 9);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .p {
+        color: white;
+        font-size: 30px;
+        padding-left: 250px;
+        padding-right: 0px;
+        padding-top: 60px;
+        text-decoration: none;
+      }
+      .normal {
+        margin-top: 40px;
+        margin-right: 0;
+        padding-right: 0;
+        margin-left: 220px;
+        position: relative;
+      }
+      .bgholder {
+        height: 250px;
+        width: 250px;
+        background-size: cover;
+        position: absolute;
+      }
+      input[type="checkbox"] + label {
+        background: url("https://cdn.shopclues.com/images/thumbnails/79148/320/320/134431400-79148159-1522749930.jpg")
+          no-repeat;
+        background-size: 80%;
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        display: inline-block;
+      }
+      input {
+        display: none;
+        position: absolute;
+        border: solid black 2px;
+      }
+
+      input[type="checkbox"]:checked + label {
+        background: url("https://cdn.shopclues.com/images/thumbnails/79148/320/320/134431400-79148159-1522749930.jpg");
+        background-repeat: no-repeat;
+        background-size: 60%;
+        position: absolute;
+        height: 1200px;
+        width: 1000px;
+        left: 50%;
+        top: 3px;
+        display: inline-block;
+        position: relative;
+        margin-left: 90px;
+      }
+      .box {
+        border: solid black 3px;
+        width: 198px;
+        height: 198px;
+        position: absolute;
+      }
+      ul {
+        display: inline;
+        margin-left: 250px;
+        padding-top: 100px;
+        position: absolute;
+      }
+      h2 {
+        display: inline;
+        margin-left: 270px;
+        padding-top: 50px;
+        position: absolute;
+      }
+      li {
+        padding-top: 15px;
+        padding-right: 10px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0 0 0 0">
+    <div class="navbar">
+      <a class="p" href="index.html">HOME</a>
+
+      <img
+        style="width: 300px; margin-left: 250px"
+        src="/Galvan_Logo.png"
+        alt=""
+      />
+      <a class="p" href="services.html">OUR SERVICES</a>
+    </div>
+    <div class="bgholder">
+      <input
+        style="z-index: 99"
+        type="checkbox"
+        name="thing"
+        value="valuable"
+        id="thing"
+      />
+      <label style="z-index: 99" for="thing"></label>
+    </div>
+    <div class="bgholder">
+      <input
+        style="
+          background-image: url(https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFvQzBwa2NMWFMuX0FDX1NMMTUwMF8uanBn.jpg);
+          z-index: 1;
+        "
+        type="checkbox"
+        name="thing"
+        value="valuable"
+        id="thing"
+      />
+      <label
+        style="
+          background-image: url(https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFvQzBwa2NMWFMuX0FDX1NMMTUwMF8uanBn.jpg);
+          z-index: 1;
+          left: 0px;
+          width: 210px;
+          height: 210px;
+          margin-left: 25px;
+          margin-top: 25px;
+          background-size: 60%;
+        "
+        for="thing"
+      ></label>
+    </div>
+    <div class="box"></div>
+    <img
+      class="normal"
+      src="https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFvQzBwa2NMWFMuX0FDX1NMMTUwMF8uanBn.jpgg"
+      style="width: 400px; height: 400px"
+      alt=""
+    />
+    <h2>GALVAN <i>360</i>:</h2>
+    <ul>
+      <li>
+        This smartwatch has a new unique rolling and quick access menu. The new
+        Rotating UI interaction provides a great user experience. 【Changeable
+        Strap】. Watch Case Material : Polycarbonate
+      </li>
+      <li>
+        This smartwatch has a new unique rolling and quick access menu. The new
+        Rotating UI interaction provides a great user experience. 【Changeable
+        Strap】. Watch Case Material : Polycarbonate
+      </li>
+      <li>
+        This smartwatch has an in built gaming option. Enjoy hours of fun
+        playing your favorite Bird Game. And keep a Healthy Brain with the 2048
+        game!
+      </li>
+      <li>
+        This smartwatch measures real time Blood Oxygen / SPo2. Track real-time
+        Optical Heart rate Monitoring. (If a patient is suffering from Covid 19
+        please use a medical device prescribed by the Doctor)
+      </li>
+      <li>
+        This smartwatch helps destress with a quick breathing exercise. Start
+        your day with meditative breathing
+      </li>
+      <li>
+        This smartwatch can sustain for 8 days in a Normal Mode. And around 20
+        days on in a stand by mode.
+      </li>
+      <li>
+        This smartwatch has about 8 activity tracking parameters and allows you
+        to track all outdoor activities like Cycling, Skipping, Badminton,
+        Swimming, Running, Football, Walking, Basketball.
+      </li>
+    </ul>
+  </body>
+</html>
