@@ -1,0 +1,62 @@
+hr {
+    height: 3px;
+    background-color: black;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  body {
+    margin: 0 0 0 0;
+  }
+  .img {
+    width: 200px;
+  }
+  .p {
+    color: white;
+    font-size: 30px;
+    padding-left: 140px;
+    padding-right: 0px;
+    padding-top: 60px;
+    text-decoration: none;
+  }
+  .hide {
+    visibility: hidden;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(10, 10, 9);
+  }
+  #image {
+    display: inline;
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    padding: 40px 0px 20px;
+  }
+  .div {
+    display: inline-block;
+    border: solid white 10px;
+    box-shadow: 1px 1px 5px;
+    background-color: black;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  #p {
+    padding-left: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: "Supermercado One", cursive;
+    color: white;
+  }
+  button {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 38%;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+  }

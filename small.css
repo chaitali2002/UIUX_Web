@@ -1,0 +1,158 @@
+.Left-Panel {
+  background-color: rgb(10, 10, 9);
+  width: 40%;
+  height: 759px;
+  position: absolute;
+}
+.Logo {
+  height: 180px;
+  margin-left: 70px;
+  margin-top: 75px;
+}
+body {
+  margin: 0 0 0 0;
+  background-color: whitesmoke;
+  padding: 0 0 0 0;
+}
+.Right-Panel {
+  position: relative;
+  background-color: white;
+  box-shadow: 2px 2px 12px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  margin-left: 35%;
+  width: 950px;
+  border-radius: 5%;
+  height: 631px;
+}
+.top {
+  height: 60px;
+  position: relative;
+}
+.animation {
+  margin-left: 650px;
+  display: inline-block;
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+}
+.wels {
+  position: absolute;
+  padding-left: 280px;
+  padding-top: 160px;
+  display: inline-block;
+  font-family: "Festive", cursive;
+  color: rgba(11, 11, 139, 0.979);
+  font-size: 80px;
+}
+.gal {
+  position: absolute;
+  padding-left: 350px;
+  padding-top: 320px;
+  display: inline-block;
+  /* font-family: 'Festive', cursive; */
+  color: rgba(11, 11, 139, 0.979);
+  font-size: 30px;
+}
+.look {
+  position: absolute;
+  padding-left: 160px;
+  padding-top: 300px;
+  display: inline-block;
+  font-size: 20px;
+}
+.place {
+  position: absolute;
+  padding-left: 300px;
+  padding-top: 320px;
+  display: inline-block;
+  font-size: 20px;
+}
+.time {
+  color: white;
+  padding-top: 30px;
+  font-size: 50px;
+  padding-left: 130px;
+  font-family: "Teko", sans-serif;
+}
+.style {
+  color: white;
+  font-size: 50px;
+  padding-left: 80px;
+  font-family: "Teko", sans-serif;
+}
+.span {
+  background-color: white;
+  position: relative;
+  padding-top: 29px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 13px;
+  padding-right: 920px;
+  display: inline;
+  color: white;
+}
+hr {
+  margin-top: 80px;
+  position: absolute;
+  width: 948px;
+  height: 2px;
+  color: black;
+  background-color: black;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -5px;
+  position: absolute;
+}
+li {
+  margin: 0 20px;
+  margin-top: 25px;
+  padding-left: 200px;
+  font-size: 25px;
+  list-style-type: none;
+  color: rgb(11, 11, 139);
+}
+.middle {
+  position: relative;
+  margin-left: 116px;
+  margin-top: 15px;
+  width: 2.5px;
+  padding-right: 1px;
+  padding-bottom: 30px;
+  color: black;
+  background-color: black;
+}
+.animate {
+  position: absolute;
+  margin-top: 420px;
+  margin-left: 220px;
+  font-size: 30px;
+  font-family: "Redressed";
+}
+.animate::before {
+  content: "";
+  animation: animate infinite 10s;
+}
+@keyframes animate {
+  0% {
+    content: "The Best Brand Of SmartWacthes";
+  }
+
+  50% {
+    content: "Trendy And Hi-Tech Smart Wacthes";
+  }
+
+  75% {
+    content: "The Smarter World Of Smart Watches ";
+  }
+  100% {
+    content: "Where Technology And Style Go Hand-in-Hand";
+  }
+}
+a {
+  text-decoration: none;
+  color: rgb(11, 11, 139);
+}
